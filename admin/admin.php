@@ -35,6 +35,11 @@ class CMB2_Options_Admin {
      */
     protected $icon = '';
 
+    /* Menu position
+     * @var string
+     */
+    protected $position = '';
+
     /**
      * Constructor
      * @since 0.1.0
@@ -52,13 +57,15 @@ class CMB2_Options_Admin {
             'menu_slug'     => 'cmbo_options',
             'tab_prefix'    => 'tab_',
             'page_title'    => __( 'Site Options', 'myprefix' ),
-            'icon'          => ''
+            'icon'          => '',
+            'position'      => '62'
         ) );
 
         $this->title    = $config['page_title'];
         $this->key      = $config['menu_slug'];
         $this->prefix   = $config['tab_prefix'];
         $this->icon     = $config['icon'];
+        $this->position = $config['position'];
 
     }
 
@@ -86,7 +93,7 @@ class CMB2_Options_Admin {
      * @since 0.1.0
      */
     public function add_options_page() {
-        $this->options_page = add_menu_page( $this->title, $this->title, 'manage_options', $this->key, array( $this, 'admin_page_display' ), $this->icon );
+        $this->options_page = add_menu_page( $this->title, $this->title, 'manage_options', $this->key, array( $this, 'admin_page_display' ), $this->icon, $this->position );
 
         // Include CMB CSS in the head to avoid FOUT
         add_action( "admin_print_styles-{$this->options_page}", array( 'CMB2_hookup', 'enqueue_cmb_css' ) );
@@ -205,7 +212,7 @@ class CMB2_Options_Admin {
  * @since  0.1.0
  * @return CMB2_Options_Admin object
  */
-function cmb2_options_admin() {
+function cmbo_options_admin() {
     static $object = null;
     if ( is_null( $object ) ) {
         $object = new CMB2_Options_Admin();
@@ -221,9 +228,9 @@ function cmb2_options_admin() {
  * @param  string  $key Options array key
  * @return mixed        Option value
  */
-function cmb2_get_setting( $key = '' ) {
+function cmbo_get_setting( $key = '' ) {
     return cmb2_get_option( cmb2_options_admin()->key, $key );
 }
 
 // Get it started
-add_action( 'init', 'cmb2_options_admin' );
+add_action( 'init', 'cmbo_options_admin' );

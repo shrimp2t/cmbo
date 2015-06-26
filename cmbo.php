@@ -1,10 +1,10 @@
 <?php
 /**
 * Plugin Name:       Custom Meta Box Options
-* Plugin URI:        #
-* Description:
+* Plugin URI:        https://github.com/shrimp2t/cmbo/
+* Description:       CMBO is a metabox, custom fields, admin options and forms library for WordPress.
 * Version:           1.0.0
-* Author:            SmoothThemes
+* Author:            Truong Sa
 * Author URI:        http://smoothemes.com/
 * License:           GPL-2.0+
 * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
@@ -35,10 +35,10 @@ define( 'CMBO_VERSION', '1.0.0' );
  * Get Option settings file config
  *
  * Override template in your theme
+ * YOUR_THEME_DIR/settings/options.php
  * YOUR_THEME_DIR/inc/options.php
  * YOUR_THEME_DIR/includes/options.php
- * or YOUR_THEME_DIR/admin/options.php
- * or YOUR_THEME_DIR/settings/options.php
+ * YOUR_THEME_DIR/admin/options.php
  *
  * @since 1.0
  * @param string file path
