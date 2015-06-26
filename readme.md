@@ -25,7 +25,7 @@ This script based on [CMB2](https://github.com/WebDevStudios/CMB2)
 * CMBO is safe to bundle with any project. It will only load the newest version in the system.
 
 
-###Usage
+###Usage:
 #####Config your setting files:
 Copy config file form forder `settings/` and Put your setting files in **one** of folders below:
 
