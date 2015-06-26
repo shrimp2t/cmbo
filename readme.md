@@ -17,18 +17,20 @@ This script based on [CMB2](https://github.com/WebDevStudios/CMB2)
 
 ###Usage
 #####Config your setting files:
-Copy config file form forder `settings/` and Put your setting files in *one* of folders below:
+Copy config file form forder `settings/` and Put your setting files in **one** of folders below:
 
 - YOUR_THEME_DIR/settings/
 - YOUR_THEME_DIR/inc/
 - YOUR_THEME_DIR/includes/
 - YOUR_THEME_DIR/admin/
 
-*Change your admin menu settings* in file admin.php
+**Change your admin menu settings** in file admin.php
 
-*Change your admin options settings* in file options.php
-*Change your post type metabox* in file post-meta.php
-*Change your user meta* in file user-meta.php
+**Change your admin options settings* in file options.php
+
+**Change your post type metabox** in file post-meta.php
+
+**Change your user meta** in file user-meta.php
 
 
 
