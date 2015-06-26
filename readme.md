@@ -105,10 +105,12 @@ $meta_value = get_post_meta( $post_id, $key, $single );
 1. [`taxonomy_multicheck`](#taxonomy_multicheck) *
 1. [`taxonomy_multicheck_inline`](#taxonomy_multicheck_inline)
 1. [`wysiwyg`](#wysiwyg) (TinyMCE) *
-1. [`file`](#file) Image/File upload *†
+1. [`file`](#file) Image/File upload *
 1. [`file_list`](#file_list) Image/File list upload
 1. [`oembed`](#oembed) Converts oembed urls (instagram, twitter, youtube, etc. [oEmbed in the Codex](https://codex.wordpress.org/Embeds))
 1. [`group`](#group) Hybrid field that supports adding other fields as a repeatable group. *
+1. [`post_search_text`](#post_search_text) Post id(s) width search function. *
+
 
 #### More Info
 * [Create your own field type](https://github.com/WebDevStudios/CMB2/wiki/Adding-your-own-field-types)
