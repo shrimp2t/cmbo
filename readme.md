@@ -26,7 +26,7 @@ This script based on [CMB2](https://github.com/WebDevStudios/CMB2)
 
 
 ###Usage:
-#####Config your setting files:
+####Config your setting files:
 Copy config file form forder `settings/` and Put your setting files in **one** of folders below:
 
 - YOUR_THEME_DIR/settings/
@@ -45,7 +45,7 @@ Copy config file form forder `settings/` and Put your setting files in **one** o
 
 
 
-#####Get option setting form admin options:
+####Get option setting form admin options:
 
 ```php
 <?php 
@@ -54,7 +54,7 @@ $value = cmbo_get_setting(  $field_id );
 
 ?>
 ```
-#####Get user meta:
+####Get user meta:
 ```php
 <?php 
 
@@ -63,7 +63,7 @@ $value = get_user_meta( $user_id, $key, $single );
 ?>
 ```
 
-#####Get user meta:
+####Get user meta:
 
 ```php
 <?php 
