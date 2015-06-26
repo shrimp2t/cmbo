@@ -49,6 +49,27 @@ Copy config file form forder `settings/` and Put your setting files in **one** o
 
 ```php
 <?php 
-cmbo_get_setting(  $field_id );
+
+$value = cmbo_get_setting(  $field_id );
+
 ?>
 ```
+#####Get user meta:
+```php
+<?php 
+
+$value = get_user_meta( $user_id, $key, $single );
+
+?>
+```
+
+#####Get user meta:
+
+```php
+<?php 
+
+$meta_value = get_post_meta( $post_id, $key, $single ); 
+
+?>
+```
+
