@@ -1,4 +1,14 @@
+**Tags:**              metaboxes, forms, fields, options, settings, admin options 
+**Requires at least:** 3.8.0  
+**Tested up to:**      4.2.2  
+**Stable tag:**        2.0.8  
+**License:**           GPLv2 or later  
+**License URI:**       [http://www.gnu.org/licenses/gpl-2.0.html](http://www.gnu.org/licenses/gpl-2.0.html)  
+
+
 ###Description
+CMBO is a metabox, custom fields, admin options and forms library for WordPress.
+
 
 This script based on [CMB2](https://github.com/WebDevStudios/CMB2)
 
@@ -27,7 +37,7 @@ Copy config file form forder `settings/` and Put your setting files in **one** o
 
 **Change your admin menu settings** in file admin.php
 
-**Change your admin options settings* in file options.php
+**Change your admin options settings** in file options.php
 
 **Change your post type metabox** in file post-meta.php
 
