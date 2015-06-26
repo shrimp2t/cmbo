@@ -24,6 +24,7 @@ Copy config file form forder `settings/` and Put your setting files in **one** o
 - YOUR_THEME_DIR/includes/
 - YOUR_THEME_DIR/admin/
 
+
 **Change your admin menu settings** in file admin.php
 
 **Change your admin options settings* in file options.php
