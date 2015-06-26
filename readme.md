@@ -73,3 +73,43 @@ $meta_value = get_post_meta( $post_id, $key, $single );
 ?>
 ```
 
+
+
+## Field Types:
+1. [`title`](#title) An arbitrary title field *
+1. [`text`](#text)
+1. [`text_small`](#text_small)
+1. [`text_medium`](#text_medium)
+1. [`text_email`](#text_email)
+1. [`text_url`](#text_url)
+1. [`text_money`](#text_money)
+1. [`textarea`](#textarea)
+1. [`textarea_small`](#textarea_small)
+1. [`textarea_code`](#textarea_code)
+1. [`text_date`](#text_date) Date Picker
+1. [`text_time`](#text_time) Time picker
+1. [`select_timezone`](#select_timezone) Time zone dropdown
+1. [`text_date_timestamp`](#text_date_timestamp) Date Picker (UNIX timestamp)
+1. [`text_datetime_timestamp`](#text_datetime_timestamp) Text Date/Time Picker Combo (UNIX timestamp)
+1. [`text_datetime_timestamp_timezone`](#text_datetime_timestamp_timezone) Text Date/Time Picker/Time zone Combo (serialized DateTime object)
+1. [`colorpicker`](#colorpicker) Color picker
+1. [`radio`](#radio) *
+1. [`radio_inline`](#radio_inline) *
+1. [`taxonomy_radio`](#taxonomy_radio) *
+1. [`taxonomy_radio_inline`](#taxonomy_radio_inline) *
+1. [`select`](#select)
+1. [`taxonomy_select`](#taxonomy_select) *
+1. [`checkbox`](#checkbox) *
+1. [`multicheck` and `multicheck_inline`](#multicheck-and-multicheck_inline)
+1. [`taxonomy_multicheck`](#taxonomy_multicheck) *
+1. [`taxonomy_multicheck_inline`](#taxonomy_multicheck_inline)
+1. [`wysiwyg`](#wysiwyg) (TinyMCE) *
+1. [`file`](#file) Image/File upload *†
+1. [`file_list`](#file_list) Image/File list upload
+1. [`oembed`](#oembed) Converts oembed urls (instagram, twitter, youtube, etc. [oEmbed in the Codex](https://codex.wordpress.org/Embeds))
+1. [`group`](#group) Hybrid field that supports adding other fields as a repeatable group. *
+
+#### More Info
+* [Create your own field type](https://github.com/WebDevStudios/CMB2/wiki/Adding-your-own-field-types)
+* [Common field parameters shared by all fields](#common-field-parameters)
+
